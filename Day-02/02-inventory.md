@@ -91,4 +91,10 @@ if __name__ == '__main__':
 
 ```
 ansible-playbook -i inventory <Adhoc command or Playbook.yml>
+EX: ansible-playbook -i inventory.ini -m shell -a "apt install openjdk" all
+-i --> to specify location of inventory.ini location
+inventory.ini --> inventory file
+-m --> To execute the shell commands
+-a --> argument
+all --> In all IP addresses specified in inventory file
 ```
