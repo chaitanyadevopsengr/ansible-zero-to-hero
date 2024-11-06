@@ -23,7 +23,7 @@ db2.example.com
 ansible_user=admin
 ansible_ssh_private_key_file=/path/to/key
 ```
-
+NOTE : We can store inventory.ini file anywhere, but while executing we need to specify path of it. If ypu don't want to specify the path while executing, you can store the hosts file in /etc/ansible/ path. hosts file will act as inventory.ini file. 
 ### YAML
 
 ```
